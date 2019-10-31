@@ -1,0 +1,21 @@
+<?php
+$name = "Jessie";
+$car = "Honda Civic";
+
+$car = "Mercedes Benz";
+
+const plane = "Jet";
+
+plane = 234;
+
+ ?>
+ <!DOCTYPE html>
+<html>
+<body>
+ <?php  echo "<h1>My name is{$name}<h1>"?>
+
+ <?php  echo $car; ?>
+ 
+ <?php  echo $plane; ?>
+
+</body>
